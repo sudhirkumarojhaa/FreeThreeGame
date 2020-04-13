@@ -1,0 +1,65 @@
+.app {
+  background: url('../src/bg.png') no-repeat top;
+  background-size: 350px;
+}
+
+h5 {
+  color: #84c8f1;
+}
+
+h3 {
+  border: 10px double #23399c;
+  width: 80px;
+  border-radius: 50%;
+  padding: 12px;
+  text-align: center;
+  margin: 0 auto;
+  box-shadow: 4px 4px 20px #23399c;
+}
+
+h2 {
+  width: 70px;
+  border: 10px double #8dd2f1;
+  text-align: center;
+  border-radius: 50%;
+  padding: 10px 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.box {
+  padding: 20px;
+  margin-top: 120px !important;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+}
+
+button {
+  width: 200px;
+  border-radius: 25px;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+  text-align: center;
+}
+
+input {
+  border: 0;
+  border-bottom: 0.5px solid #002856;
+  width: 200px;
+  background-color: transparent;
+  font-size: 42px;
+}
+
+img {
+  width: 250px;
+  height: 150px;
+  object-fit: contain;
+  margin: 20px 0;
+}
