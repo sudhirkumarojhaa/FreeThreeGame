@@ -50,14 +50,14 @@ const App=()=> {
     <div className="app vh-100 d-flex justify-content-center align-items-center flex-column">
         {toggle ?
           <div className="d-flex justify-content-center align-items-center flex-column my-5 box" >
-            <p className="text-dark font-weight-bold text-center py-3">Enter your Bet Sum</p>
-          <input type="number" value={betValue} onChange={e => setBetValue(parseInt(e.target.value))}  />
-          <button className="px-4 my-3 py-2 bg-primary text-white font-weight-bold" disabled={betValue === '' || betValue >= 19}
-              onClick={() => handleBetValue()}>Submit Bet Amount</button>
+            <p className="text-dark font-weight-bold text-center py-3">Enter your Lucky Number</p>
+          <input max={9}  type="number" value={betValue} onChange={e => setBetValue(parseInt(e.target.value))}  />
+          <button className="my-3 py-2 bg-primary text-white font-weight-bold" disabled={betValue === '' || betValue >= 19}
+              onClick={() => handleBetValue()}>Start Playing</button>
               <div>
           <li className="small font-weight-bold text-dark"> Choose any number between 1-18.</li>
           <li className="small font-weight-bold text-dark"> You will get three attempts to roll the dice.</li>
-          <li className="small font-weight-bold text-dark"> Number would start from 1-9 .</li>
+          <li className="small font-weight-bold text-dark"> Number would start from 1-6.</li>
           <li className="small font-weight-bold text-dark"> At the end of third attempt sum of the three rolls would be calculated</li>
           <li className="small font-weight-bold text-dark"> If it matches your bet you win otherwise you lose.</li>
           </div>
