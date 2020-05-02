@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/FreeThreeGame/precache-manifest.8290a1bb877fb9ae3c2d492f1037896e.js"
+  "/FreeThreeGame/precache-manifest.e29d7b3594e1dfe4cbb8c24a65797dfb.js"
 );
 
 self.addEventListener('message', (event) => {

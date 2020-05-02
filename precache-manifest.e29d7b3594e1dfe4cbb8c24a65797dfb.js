@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "348902ea743bfc06a1abd511a9aef98d",
+    "revision": "64c0d0af95b5d79830016b1afe5eafdc",
     "url": "/FreeThreeGame/index.html"
   },
   {
-    "revision": "ee1516d4cda1cbf8c53a",
+    "revision": "4b7fc19def0aa022a954",
     "url": "/FreeThreeGame/static/css/main.9e7e8b34.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/FreeThreeGame/static/js/2.6e488f24.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ee1516d4cda1cbf8c53a",
-    "url": "/FreeThreeGame/static/js/main.f0a79f8d.chunk.js"
+    "revision": "4b7fc19def0aa022a954",
+    "url": "/FreeThreeGame/static/js/main.2819f1e0.chunk.js"
   },
   {
     "revision": "ebe4edaf271f2997652d",
