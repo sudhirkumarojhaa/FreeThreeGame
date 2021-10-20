@@ -5,6 +5,7 @@
 ### Usage
 
 ```bash
-yarn start
-yarn build
+yarn        # install dependencies
+yarn start  # start the development server
+yarn build  # create a production build
 ```
