@@ -1,4 +1,4 @@
-# FreeThreeGame
+# FreeThreeGame - A React based game
 
 > Demo: https://sudhirkumarojhaa.github.io/FreeThreeGame/
 
